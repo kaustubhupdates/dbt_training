@@ -1,0 +1,4 @@
+select
+ * 
+ from 
+ {{ref('addresses')}} where city='Mumbai'

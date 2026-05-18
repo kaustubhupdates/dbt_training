@@ -1,0 +1,11 @@
+TeacherID,FullName,Subject,PhoneNumber,Email,Address,HireDate,Salary
+201,Alice Johnson,Mathematics,-5244,alice.johnson@school.edu,"123 Maple St, Toronto, ON",8/15/2015,62000
+202,Dr. José Martínez,Physics,-6466,jose.martinez@school.edu,"456 Oak Ave, Vancouver, BC",9/1/2012,75000
+203,李小龙,Martial Arts,-7688,bruce.lee@school.edu,"789 Pine Rd, Richmond, BC",3/10/2018,68000
+204,Fatima Al-Fulan,History,-8900,fatima.fulan@school.edu,"321 Birch Blvd, Calgary, AB",11/20/2016,59000
+205,Olivier Dupont,French,-10022,olivier.dupont@school.edu,"654 Cedar Ln, Montreal, QC",1/5/2014,71000
+206,Ananya Sharma,Biology,-10244,ananya.sharma@school.edu,"987 Spruce Dr, Ottawa, ON",6/25/2019,64000
+207,John O'Connor,English,-1466,john.oconnor@school.edu,"159 Elm St, Halifax, NS",4/18/2013,67000
+208,Sven Åkesson,Computer Science,-2678,sven.akesson@school.edu,"753 Willow Way, Winnipeg, MB",10/30/2020,66000
+209,Marta Kowalska,Geography,-3800,marta.kowalska@school.edu,"852 Aspen Ct, Regina, SK",2/14/2017,63000
+210,Nguyễn Văn A,Chemistry,-4022,nguyen.vana@school.edu,"951 Poplar Pl, Edmonton, AB",7/7/2021,60000
