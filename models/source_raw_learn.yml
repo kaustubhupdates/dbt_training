@@ -1,0 +1,35 @@
+# version: 2
+#  sources:
+#   - name: raw
+#     database: DBT_TRAINING
+#     schema: DBT
+#     tables:
+#        - name: PRODUCTS
+#        - name: address_mumbai
+
+sources:
+  # - name: raw
+  #   database: DBT_TRAINING
+  #   schema: DBT_STAGING_LEARN
+  #   tables:
+  #     - name: temperature_conversion
+
+  #     - name: address_mumbai
+  #     - name: PRODUCTS
+  #       columns:
+  #         - name: PRODUCTID
+  #           description: key field
+  #           tests:
+  #             - unique
+  #             - not_null
+
+  - name: tutorial_source
+    database: tutorial
+    schema: STAGING_TUTORIAL
+
+    tables:
+      # - name: RAW_ORDERS
+      # - name: ORDER_STATUS_MAPPING
+      # - name : RAW_CUSTOMERS
+      # - name : RAW_PAYMENTS
+      - name: RAW_PRODUCTS
