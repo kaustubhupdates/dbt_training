@@ -43,6 +43,8 @@ models:
     staging:
       +schema: staging_learn
       +materialized: table
-
+    materialization:
+      +schema: staging_learn
+      +materialized: table
 seeds:
     +schema: staging_learn
