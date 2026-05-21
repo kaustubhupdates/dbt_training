@@ -1,9 +1,11 @@
-select
-productid,
-weightmeasure,
-price,
-{{price_in_dollar('price',2)}} as price_in_$
+{{ config(     tags=["deprecated"] ) }}
 
-from {{source ('raw','PRODUCTS')}}
+-- select
+-- productid,
+-- weightmeasure,
+-- price,
+-- {{price_in_dollar('price',2)}} as price_in_$
 
-where PRODCATEGORYID in ('RO','EB')
+-- from {{source ('raw','PRODUCTS')}}
+
+-- where PRODCATEGORYID in ('RO','EB')

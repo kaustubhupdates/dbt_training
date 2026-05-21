@@ -1,10 +1,12 @@
-{{ config
-(materialized='table',
-alias='product_ephemeral'
-)
-}}
+{{ config(     tags=["deprecated"] ) }}
 
-select 
-*
-from 
-{{ref('products_ephemeral_1')}}
+-- {{ config
+-- (materialized='table',
+-- alias='product_ephemeral'
+-- )
+-- }}
+
+-- select 
+-- *
+-- from 
+-- {{ref('products_ephemeral_1')}}

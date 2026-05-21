@@ -1,10 +1,12 @@
-{{ config
-(materialized='view',
-alias='product_view'
-)
-}}
+{{ config(     tags=["deprecated"] ) }}
 
-select 
-*
-from 
-{{source('raw','PRODUCTS')}} WHERE CREATEDBY IN ('7','9')
+-- {{ config
+-- (materialized='view',
+-- alias='product_view'
+-- )
+-- }}
+
+-- select 
+-- *
+-- from 
+-- {{source('raw','PRODUCTS')}} WHERE CREATEDBY IN ('7','9')

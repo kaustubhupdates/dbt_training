@@ -1,10 +1,12 @@
-{{ config
-(materialized='ephemeral',
-alias='product_ephemeral'
-)
-}}
+{{ config(     tags=["deprecated"] ) }}
 
-select 
-*
-from 
-{{source('raw','PRODUCTS')}} WHERE PRODCATEGORYID IN ('RO','HB')
+-- {{ config
+-- (materialized='ephemeral',
+-- alias='product_ephemeral'
+-- )
+-- }}
+
+-- select 
+-- *
+-- from 
+-- {{source('raw','PRODUCTS')}} WHERE PRODCATEGORYID IN ('RO','HB')

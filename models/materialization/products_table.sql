@@ -1,10 +1,12 @@
-{{ config
-(materialized='table',
-alias='product_table'
-)
-}}
+{{ config(     tags=["deprecated"] ) }}
 
-select 
-*
-from 
-{{source('raw','PRODUCTS')}} WHERE PRODCATEGORYID IN ('RO','HB')
+-- {{ config
+-- (materialized='table',
+-- alias='product_table'
+-- )
+-- }}
+
+-- select 
+-- *
+-- from 
+-- {{source('raw','PRODUCTS')}} WHERE PRODCATEGORYID IN ('RO','HB')
