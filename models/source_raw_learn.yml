@@ -28,8 +28,8 @@ sources:
     schema: STAGING_TUTORIAL
 
     tables:
-      # - name: RAW_ORDERS
-      # - name: ORDER_STATUS_MAPPING
-      # - name : RAW_CUSTOMERS
-      # - name : RAW_PAYMENTS
+      - name: RAW_ORDERS
+      - name : RAW_CUSTOMERS
+      - name : RAW_PAYMENTS
       - name: RAW_PRODUCTS
+      - name: ORDER_STATUS_MAPPING

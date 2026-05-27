@@ -48,7 +48,7 @@ models:
     #   +schema: staging_learn
     #   +materialized: table
     tutorial:
-      +schema: STAGING_TUTORIAL
+      +schema: LANDING_TUTORIAL
       +materialized: table
 
 # seeds:
